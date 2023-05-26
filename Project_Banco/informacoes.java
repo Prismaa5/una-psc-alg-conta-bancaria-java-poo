@@ -4,15 +4,22 @@ public class informacoes {
     private double saldoAtual;
     private String nome;
     private int numeroConta;
-
-    public void saldoAtualSet(double novoSaldo){
-        saldoAtual = novoSaldo;
+    public int getNumeroConta() {
+        return numeroConta;
     }
-    public void numeroContaSet(int contaNova){
-        numeroConta = contaNova;
+    public void setNumeroConta(int numeroConta) {
+        this.numeroConta = numeroConta;
     }
-    public void nomeSet(String novoNome){
-        nome = novoNome;
+    public String getNome() {
+        return nome;
     }
-
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+    public double getSaldoAtual() {
+        return saldoAtual;
+    }
+    public void setSaldoAtual(double saldoAtual) {
+        this.saldoAtual = saldoAtual;
+    }
 }
